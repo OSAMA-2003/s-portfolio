@@ -41,7 +41,7 @@ export default function CertificateSection() {
           <p className="text-white/60 max-w-2xl text-sm sm:text-base leading-relaxed">
             وثيقة ممارس حر صادرة من وزارة الموارد البشرية والتنمية الاجتماعية
             في المملكة العربية السعودية، تثبت تسجيل الممارس كمستقل في مجال
-            تصميم الأزياء.
+            التصميم.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export default function CertificateSection() {
 
             <div>
               <h3 className="font-serif text-2xl sm:text-3xl text-white font-bold leading-tight mb-4">
-                ممارس حر معتمد في مجال تصميم الأزياء
+                ممارس حر معتمد في مجال التصميم
               </h3>
 
               <p className="text-white/65 text-sm sm:text-base leading-relaxed">
