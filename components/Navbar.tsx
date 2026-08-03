@@ -137,7 +137,7 @@ export default function Navbar() {
             className="mt-4 flex items-center gap-2 bg-[#25D366] text-black px-6 py-3 rounded-full text-base font-bold shadow-[0_0_25px_rgba(37,211,102,0.6)]"
           >
             <FaWhatsapp className="w-5 h-5" />
-            <span>واتساب: +966 50 703 2928</span>
+            <span>واتساب  </span>
           </a>
         </nav>
       </div>

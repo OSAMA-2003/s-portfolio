@@ -1,14 +1,5 @@
 @import "tailwindcss";
 
-/* Define Momken Custom Font Family */
-@font-face {
-  font-family: 'Momken';
-  src: url('/fonts/Momken-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Define ThmanyahSans Custom Font Family */
 @font-face {
   font-family: 'ThmanyahSans';
@@ -50,11 +41,11 @@
   font-display: swap;
 }
 
-/* Force Tailwind font variables to use Momken */
+/* Force Tailwind font variables to use ThmanyahSans */
 @theme {
-  --font-sans: 'Momken', 'ThmanyahSans', sans-serif;
-  --font-serif: 'Momken', 'ThmanyahSans', sans-serif;
-  --font-mono: 'Momken', 'ThmanyahSans', sans-serif;
+  --font-sans: 'ThmanyahSans', sans-serif;
+  --font-serif: 'ThmanyahSans', sans-serif;
+  --font-mono: 'ThmanyahSans', sans-serif;
 }
 
 @layer base {
@@ -64,7 +55,7 @@
     padding: 0;
     background-color: #000000;
     color: #ffffff;
-    font-family: 'Momken', 'ThmanyahSans', sans-serif !important;
+    font-family: 'ThmanyahSans', sans-serif !important;
     overflow-x: hidden !important;
     max-width: 100vw;
   }
@@ -75,7 +66,7 @@
     padding: 0;
     background-color: #000000;
     color: #ffffff;
-    font-family: 'Momken', 'ThmanyahSans', sans-serif !important;
+    font-family: 'ThmanyahSans', sans-serif !important;
     min-height: 100vh;
     overflow-x: hidden !important;
     max-width: 100vw;
@@ -87,7 +78,7 @@
   *,
   *::before,
   *::after {
-    font-family: 'Momken', 'ThmanyahSans', sans-serif !important;
+    font-family: 'ThmanyahSans', sans-serif !important;
   }
 }
 
