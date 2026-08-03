@@ -7,7 +7,7 @@ import { AnimatedCounter } from "./AnimatedCounter";
 export default function HeroSection() {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#060808] w-full"
+      className="  relative min-h-screen flex items-center justify-center md:pr-10 pt-24 pb-16 overflow-hidden bg-[#060808] w-full"
       id="home"
     >
       {/* Background Cyan Glow Spheres */}
@@ -140,7 +140,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            className=" mt-0 absolute bottom-0 lg:left-8 z-30 flex gap-6 sm:gap-8 items-center bg-black/50 backdrop-blur-md px-5 sm:px-6 py-3 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.8)] max-w-full"
+            className=" mt-0 absolute bottom-1 md:bottom-10 lg:left-40 z-30 flex gap-6 sm:gap-8 items-center bg-black/50 backdrop-blur-md px-5 sm:px-6 py-3 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.8)] max-w-full"
           >
             <div className="flex flex-col items-center">
               <span className="font-serif text-white text-2xl sm:text-4xl font-bold leading-none">

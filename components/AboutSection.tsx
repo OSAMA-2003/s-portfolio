@@ -28,8 +28,7 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-xl lg:text-3xl leading-relaxed font-bold max-w-xl">
-            هو فكرة، إحساس، وقصة بتتحكي بصريًا. أنا بؤمن إن كل علامة تجارية ليها روح، ودوري هو إني أجسد الروح دي من خلال لغة بصرية فريدة بتمزج بين الحداثة والأصالة.
-          </p>
+            انا مصممة جرافيك متخصصة في تصميم الهويات البصرية، أساعد العلامات التجارية على الظهور بأسلوب احترافي يعكس رؤيتها ويترك انطباعًا مميزًا. شغوفة بالإبداع والتفاصيل التي تصنع الفرق.          </p>
 
           <div className="grid grid-cols-3 gap-10 border-t-4 border-black pt-10">
             <motion.div
@@ -39,7 +38,7 @@ export default function AboutSection() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="block font-serif text-5xl lg:text-7xl font-black">
-                <AnimatedCounter prefix="+" target={3} duration={1.5} />
+                <AnimatedCounter prefix="+" target={3} duration={1} />
               </span>
               <span className="font-mono uppercase font-bold tracking-widest mt-2 block text-sm">
                 سنوات خبرة

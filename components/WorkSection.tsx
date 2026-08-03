@@ -26,15 +26,16 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     id: "brand1",
     coverImage: "/brands/brand1/cover.jfif",
     galleryImages: [
-      "/brands/brand1/HN9jC3RXUAE90Om.jfif",
-      "/brands/brand1/HN9jEJdWIAAP96E.jfif",
-      "/brands/brand1/HN9jExSWgAEegcA.jfif",
+      "/brands/brand1/HOKV7dFXUAA_B-L.jfif",
+
+      "/brands/brand1/HOKV7duWIAA9qsd.jfif",
+      "/brands/brand1/HOKWFkAWsAAQkPc.jfif",
     ],
     title: "هوية بصرية متكاملة",
     category: "01 / BRAND IDENTITY",
     description:
       "تصميم هوية بصرية كاملة تجمع بين الأصالة واللمسات الحداثية المعاصرة. تم بناء هذا المشروع لتقديم انطباع بصري قوي يترسخ في أذهان العملاء عبر مختلف الوسائط.",
-    year: "2024",
+    year: "2026",
     deliverables: ["تصميم الشعار", "دليل الهوية البصرية", "بطاقات الأعمال", "القرطاسية الرسمية"],
   },
   {
@@ -49,27 +50,27 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     category: "02 / BRAND SYSTEM",
     description:
       "نظام تصميمي متكامل يضمن الاتساق البصري عبر كافة منصات التواصل والوسائط المطبوعة مع مراعاة أعلى درجات المرونة والتميز الجمالي.",
-    year: "2024",
+    year: "2026",
     deliverables: ["نظام التصميم الشامل", "القوالب الرقمية", "إرشادات الاستخدام", "تصاميم تطبيقات الجوال"],
   },
   {
     id: "brand3",
     coverImage: "/brands/brand3/cover.jfif",
     galleryImages: [
-      "/brands/brand3/HOO9no8WwAAi5LN.jfif",
-      "/brands/brand3/HOO9no9WUAAHAUR.jfif",
-      "/brands/brand3/HOO9nowW8AAVEW5.jfif",
+      "/brands/brand3/GyeVxZxXkAEnlxs.jfif",
+      "/brands/brand3/aa.jfif",
+      "/brands/brand3/sfds.jfif",
     ],
     title: "إخراج فني وحملات إعلانية",
     category: "03 / ART DIRECTION",
     description:
       "إخراج فني لحملة تسويقية متكاملة تعزز حضور العلامة وتجذب الفئة المستهدفة بأسلوب بصري ابتكاري يعكس قيمة المنتج.",
-    year: "2023",
+    year: "2026",
     deliverables: ["الإخراج الفني", "المطبوعات الإعلانية", "البوسترات الجدارية", "تصاميم الشوارع"],
   },
   {
     id: "brand4",
-    coverImage: "/brands/brand4/HOpECMXXIAAIPd8.jfif",
+    coverImage: "/brands/brand4/cover.jfif",
     galleryImages: [
       "/brands/brand4/HOpCetNW8AAz7oj.jfif",
       "/brands/brand4/HOpDNMHWoAABepW.jfif",
@@ -79,7 +80,7 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     category: "04 / SOCIAL MEDIA",
     description:
       "سلسلة من المنشورات والتصاميم التفاعلية المصممة خصيصاً لحسابات التواصل الاجتماعي لرفع نسب التفاعل وإبراز قوة الهوية.",
-    year: "2024",
+    year: "2026",
     deliverables: ["منشورات انستغرام", "تصاميم القصص (Stories)", "بنرات التويتر", "الإعلانات الممولة"],
   },
   {
@@ -94,23 +95,81 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     category: "05 / PACKAGING & PRINT",
     description:
       "ابتكار غلاف منتج فريد يعكس الفخامة والجودة، مع الاهتمام بجميع تفاصيل الطباعة والتجربة اللمسية المتميزة.",
-    year: "2023",
+    year: "2026",
     deliverables: ["تصميم التغليف", "العلب الفاخرة", "ملصقات المنتجات", "نماذج ثلاثية الأبعاد (3D)"],
   },
   {
     id: "brand6",
     coverImage: "/brands/brand6/cover.jfif",
     galleryImages: [
-      "/brands/brand6/HOVFwpZWcAAPRKF.jfif",
-      "/brands/brand6/HOVFwpeWIAAKabz.jfif",
-      "/brands/brand6/HOVFwq2WgAAPBNg.jfif",
+      "/brands/brand6/G-unVbSWUAAc049.jfif",
+      "/brands/brand6/G-unVbybQAQLYo6.jfif",
+      "/brands/brand6/wffa.jfif",
     ],
     title: "ابتكار الشعارات والرموز الإبداعية",
     category: "06 / LOGO & MARK",
     description:
       "تصميم رموز وشعارات دقيقة تحمل معاني عميقة وسهلة التذكر، مصممة بأعلى معايير الهندسة البصرية والنسب الذهبية.",
-    year: "2024",
+    year: "2026",
     deliverables: ["ابتكار الشعار", "هندسة الشبكة البصرية", "الأنماط الزخرفية", "تطبيقات متعددة الاستخدام"],
+  },
+  {
+    id: "brand7",
+    coverImage: "/brands/brand7/cover.jfif",
+    galleryImages: [
+      "/brands/brand7/GzEKDg1WwAA6yCT.jfif",
+      "/brands/brand7/GzEKDhGXgAApdcH.jfif",
+      "/brands/brand7/GzEKDhUW4AAXbvY.jfif",
+    ],
+    title: "هوية تجارية معاصرة",
+    category: "07 / MODERN IDENTITY",
+    description:
+      "تطوير هوية تجارية عصرية وشاملة تعتمد على مبادئ التجريد الهندسي والتناغم الأيقوني لتقديم علامة تجارية فريدة.",
+    year: "2026",
+    deliverables: ["تطوير الهوية", "الدليل الارشادي", "التصاميم الرقمية", "المطبوعات الفاخرة"],
+  },
+  {
+    id: "brand8",
+    coverImage: "/brands/brand8/cover.jfif",
+    galleryImages: [
+      "/brands/brand8/HG35CMwagAAJJQN.jfif",
+      "/brands/brand8/HG35CMxaAAALEPM.jfif",
+      "/brands/brand8/HG35CMxacAAthNp.jfif",
+    ],
+    title: "تصاميم المنتجات الرقمية",
+    category: "08 / DIGITAL PRODUCTS",
+    description:
+      "واجهات ومكونات بصرية حديثة مصممة للمنتجات والتطبيقات الرقمية لضمان تجربة مستخدم مبهرة وجذابة.",
+    year: "2026",
+    deliverables: ["واجهات المستخدم", "الأيقونات المخصصة", "قوالب العرض", "أنظمة الألوان"],
+  },
+  {
+    id: "brand9",
+    coverImage: "/brands/brand9/cover.jfif",
+    galleryImages: [
+      "/brands/brand9/Gt_bs0GXsAApkg-.jfif",
+      "/brands/brand9/Gt_bs0JWwAEG7-2.jfif",
+    ],
+    title: "دليل وتطبيقات الهوية البصرية",
+    category: "09 / BRAND GUIDELINES",
+    description:
+      "صياغة وتنفيذ دليل متكامل لتطبيقات العلامة التجارية يشمل استخدام الخطوط، الألوان، وأساليب العرض والتسويق.",
+    year: "2026",
+    deliverables: ["كتاب الهوية", "قواعد الطباعة", "تطبيقات القرطاسية", "نماذج الإعلانات"],
+  },
+  {
+    id: "brand10",
+    coverImage: "/brands/brand10/cover.jpg",
+    galleryImages: [
+      "/brands/brand10/HNOkQzAW4AAmC7R.jfif",
+      "/brands/brand10/HNOkuqmWQAAK0xV.jfif",
+    ],
+    title: "التصميم الإعلاني والبصري",
+    category: "10 / ADVERTISING DESIGN",
+    description:
+      "تصاميم إعلانية مبتكرة موجهة للحملات التسويقية لترسيخ حضور العلامة في الأسواق وإثارة اهتمام الفئة المستهدفة.",
+    year: "2026",
+    deliverables: ["الحملات الإعلانية", "المطبوعات التسويقية", "بنرات الويب", "البوسترات"],
   },
 ];
 
@@ -185,7 +244,7 @@ export function Smooth3DSlideshow({
     lockRef.current = true;
     window.setTimeout(() => {
       lockRef.current = false;
-    }, 600);
+    }, 450);
   }, []);
 
   const step = useCallback(
@@ -210,24 +269,35 @@ export function Smooth3DSlideshow({
     [active, onOpenDetails, lock]
   );
 
-  // Touch Swipe Gesture Handling
+  // Responsive Professional Touch Swipe Gesture Handling
   const touchStartX = useRef<number | null>(null);
   const touchCurrentX = useRef<number | null>(null);
+  const touchStartY = useRef<number | null>(null);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
     touchCurrentX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
+    if (touchStartX.current === null || touchStartY.current === null) return;
     touchCurrentX.current = e.touches[0].clientX;
+    const diffX = touchStartX.current - e.touches[0].clientX;
+    const diffY = touchStartY.current - e.touches[0].clientY;
+
+    if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 10) {
+      if (e.cancelable) {
+        e.preventDefault();
+      }
+    }
   };
 
   const handleTouchEnd = () => {
     if (touchStartX.current === null || touchCurrentX.current === null) return;
     const diffX = touchStartX.current - touchCurrentX.current;
 
-    if (Math.abs(diffX) > 30) {
+    if (Math.abs(diffX) > 25) {
       if (diffX > 0) {
         step(1); // Swipe Left -> Next
       } else {
@@ -236,6 +306,7 @@ export function Smooth3DSlideshow({
     }
     touchStartX.current = null;
     touchCurrentX.current = null;
+    touchStartY.current = null;
   };
 
   const onKeyDown = useCallback(
@@ -274,8 +345,10 @@ export function Smooth3DSlideshow({
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
-      className="py-4 select-none touch-pan-y"
+      className="py-4 select-none touch-none sm:touch-pan-y"
     >
+
+
       <div
         style={{
           position: "relative",
@@ -366,9 +439,9 @@ export function Smooth3DSlideshow({
                 }}
                 className="flex flex-col gap-1 text-right"
               >
-                <span className="font-mono text-[11px] sm:text-xs text-[#00dce5] tracking-widest uppercase font-bold">
+                {/* <span className="font-mono text-[11px] sm:text-xs text-[#00dce5] tracking-widest uppercase font-bold">
                   {proj.category}
-                </span>
+                </span> */}
                 <span
                   style={{
                     color: "#ffffff",
@@ -393,8 +466,10 @@ export function Smooth3DSlideshow({
         })}
       </div>
 
-      {/* Navigation Controls */}
-      <div className="flex items-center gap-6 mt-10 z-30">
+
+
+      {/* Navigation Arrow & Dot Controls */}
+      <div className="flex items-center gap-6 mt-6 sm:mt-10 z-30">
         <button
           onClick={() => step(-1)}
           className="w-11 h-11 sm:w-12 sm:h-12 rounded-full border border-white/20 hover:border-[#00dce5] hover:text-[#00dce5] hover:bg-white/5 flex items-center justify-center text-white transition-all shadow-[0_0_15px_rgba(0,0,0,0.5)] active:scale-95"
@@ -460,7 +535,7 @@ export default function WorkSection() {
           أبرز المشاريع والتصاميم
         </h2>
         <p className="text-white/60 max-w-lg text-sm sm:text-base leading-relaxed">
-          انقر على أي مشروع لاستعراض تفاصيله ومعرض الصور الكامل.
+          اسحب بأصبعك أو انقر على أي مشروع لاستعراض التفاصيل ومعرض الصور الكامل.
         </p>
       </div>
 
@@ -502,12 +577,12 @@ export default function WorkSection() {
                   alt={selectedProject.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 " />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0b0d0e] via-black/40 to-transparent" />
 
                 <div className="absolute bottom-6 right-6 left-6 flex flex-col gap-2">
-                  <span className="font-mono text-xs text-[#00dce5] tracking-widest uppercase font-bold">
+                  {/* <span className="font-mono text-xs text-[#00dce5] tracking-widest uppercase font-bold">
                     {selectedProject.category}
-                  </span>
+                  </span> */}
                   <h3 className="font-serif text-3xl sm:text-5xl font-bold text-white">
                     {selectedProject.title}
                   </h3>
@@ -516,7 +591,40 @@ export default function WorkSection() {
 
               {/* Modal Content Body */}
               <div className="p-6 sm:p-10 space-y-10">
-
+                {/* Meta Grid */}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 bg-white/[0.03] p-6 rounded-2xl border border-white/10">
+                  <div>
+                    <span className="block text-xs text-white/50 font-mono mb-1">
+                      سنة التنفيذ
+                    </span>
+                    <span className="font-bold text-white text-base sm:text-lg">
+                      {selectedProject.year}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="block text-xs text-white/50 font-mono mb-1">
+                      مجال المشروع
+                    </span>
+                    <span className="font-bold text-[#00dce5] text-base sm:text-lg">
+                      {selectedProject.category.split("/")[1] || selectedProject.category}
+                    </span>
+                  </div>
+                  <div className="col-span-2">
+                    <span className="block text-xs text-white/50 font-mono mb-1">
+                      مخرجات التصميم
+                    </span>
+                    <div className="flex flex-wrap gap-2 mt-1">
+                      {selectedProject.deliverables.map((item, i) => (
+                        <span
+                          key={i}
+                          className="bg-[#00dce5]/10 text-[#00dce5] text-xs px-2.5 py-1 rounded-lg border border-[#00dce5]/30 font-medium"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
 
                 {/* Project Description */}
                 <div>

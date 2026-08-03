@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { ArrowLeft, Menu, X } from "lucide-react";
-import { FaBehance, FaDribbble, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import { FaBehance, FaLinkedin, FaInstagram, FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 
 export default function Navbar() {
   const [activeTab, setActiveTab] = useState("home");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const whatsappUrl = "https://wa.me/966507032928";
 
   const navLinks = [
     { id: "home", label: "الرئيسية", href: "#home" },
@@ -69,11 +71,10 @@ export default function Navbar() {
                 key={link.id}
                 href={link.href}
                 onClick={() => setActiveTab(link.id)}
-                className={`text-sm py-1 transition-all relative flex flex-col items-center font-bold ${
-                  activeTab === link.id
-                    ? "text-[#00dce5]"
-                    : "text-white/80 hover:text-[#00dce5]"
-                }`}
+                className={`text-sm py-1 transition-all relative flex flex-col items-center font-bold ${activeTab === link.id
+                  ? "text-[#00dce5]"
+                  : "text-white/80 hover:text-[#00dce5]"
+                  }`}
               >
                 {link.label}
                 {activeTab === link.id && (
@@ -86,11 +87,13 @@ export default function Navbar() {
           {/* Right CTA Button & Mobile Menu Toggle */}
           <div className="flex items-center gap-4">
             <a
-              href="#contact"
-              className="hidden md:flex items-center gap-2 border border-white/20 text-white px-6 py-2.5 rounded-full text-xs font-bold hover:border-[#00dce5] hover:text-[#00dce5] hover:shadow-[0_0_20px_rgba(0,220,229,0.3)] transition-all group"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="hidden md:flex items-center gap-2 border border-[#25D366]/40 bg-[#25D366]/10 text-white px-5 py-2.5 rounded-full text-xs font-bold hover:bg-[#25D366] hover:text-black hover:shadow-[0_0_20px_rgba(37,211,102,0.5)] transition-all group"
             >
-              <span>تواصل معي</span>
-              <span className="w-2 h-2 rounded-full bg-[#00dce5] inline-block shadow-[0_0_8px_#00dce5]" />
+              <FaWhatsapp className="w-4 h-4 text-[#25D366] group-hover:text-black transition-colors" />
+              <span>تواصل عبر الواتساب</span>
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             </a>
 
@@ -108,9 +111,8 @@ export default function Navbar() {
 
       {/* Mobile Drawer Navigation */}
       <div
-        className={`fixed inset-0 bg-black/95 backdrop-blur-2xl z-40 transition-transform duration-500 lg:hidden flex flex-col items-center justify-center p-8 ${
-          mobileMenuOpen ? "translate-y-0" : "-translate-y-full"
-        }`}
+        className={`fixed inset-0 bg-black/95 backdrop-blur-2xl z-40 transition-transform duration-500 lg:hidden flex flex-col items-center justify-center p-8 ${mobileMenuOpen ? "translate-y-0" : "-translate-y-full"
+          }`}
       >
         <nav className="flex flex-col items-center gap-8 text-center">
           {navLinks.map((link) => (
@@ -121,21 +123,39 @@ export default function Navbar() {
                 setActiveTab(link.id);
                 setMobileMenuOpen(false);
               }}
-              className={`text-3xl font-bold transition-colors ${
-                activeTab === link.id ? "text-[#00dce5]" : "text-white hover:text-[#00dce5]"
-              }`}
+              className={`text-3xl font-bold transition-colors ${activeTab === link.id ? "text-[#00dce5]" : "text-white hover:text-[#00dce5]"
+                }`}
             >
               {link.label}
             </a>
           ))}
+
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-4 flex items-center gap-2 bg-[#25D366] text-black px-6 py-3 rounded-full text-base font-bold shadow-[0_0_25px_rgba(37,211,102,0.6)]"
+          >
+            <FaWhatsapp className="w-5 h-5" />
+            <span>واتساب: +966 50 703 2928</span>
+          </a>
         </nav>
       </div>
 
       {/* Fixed Right Social Bar */}
       <aside className="fixed right-6 top-1/2 -translate-y-1/2 z-40 hidden xl:flex flex-col gap-6 p-4 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
         <a
+          className="text-white/60 hover:text-[#25D366] transition-colors text-center"
+          href={whatsappUrl}
+          target="_blank"
+          rel="noreferrer"
+          title="WhatsApp"
+        >
+          <FaWhatsapp className="w-5 h-5 text-[#25D366]" />
+        </a>
+        <a
           className="text-white/60 hover:text-[#00dce5] transition-colors text-center"
-          href="https://behance.net"
+          href="https://www.behance.net/sarah421"
           target="_blank"
           rel="noreferrer"
           title="Behance"
@@ -144,14 +164,14 @@ export default function Navbar() {
         </a>
         <a
           className="text-white/60 hover:text-[#00dce5] transition-colors text-center"
-          href="https://dribbble.com"
+          href="https://x.com/sarahgraphic_1"
           target="_blank"
           rel="noreferrer"
-          title="Dribbble"
+          title="X (Twitter)"
         >
-          <FaDribbble className="w-4 h-4" />
+          <FaXTwitter className="w-4 h-4" />
         </a>
-        <a
+        {/* <a
           className="text-white/60 hover:text-[#00dce5] transition-colors text-center"
           href="https://linkedin.com"
           target="_blank"
@@ -159,8 +179,8 @@ export default function Navbar() {
           title="LinkedIn"
         >
           <FaLinkedin className="w-4 h-4" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           className="text-white/60 hover:text-[#00dce5] transition-colors text-center"
           href="https://instagram.com"
           target="_blank"
@@ -168,7 +188,7 @@ export default function Navbar() {
           title="Instagram"
         >
           <FaInstagram className="w-4 h-4" />
-        </a>
+        </a> */}
         <div className="w-1.5 h-1.5 bg-[#00dce5] rounded-full mx-auto shadow-[0_0_10px_#00dce5]" />
       </aside>
     </>

@@ -22,7 +22,13 @@ export default function ServicesSection() {
       title: "السوشيال ميديا",
       description:
         "تصاميم جذابة لحسابات التواصل الاجتماعي تزيد من التفاعل وتبرز رسالتك.",
-    }
+    },
+    {
+      num: "04",
+      title: "تصميم وتطوير المواقع",
+      description:
+        "مواقع ويب عصرية ومتجاوبة، ومتاجر إلكترونية احترافية على منصتي سلة وزد.",
+    },
 
   ];
 
@@ -49,7 +55,7 @@ export default function ServicesSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, idx) => (
             <motion.div
               key={idx}

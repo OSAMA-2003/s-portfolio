@@ -8,6 +8,7 @@ import WorkSection from "@/components/WorkSection";
 import ServicesSection from "@/components/ServicesSection";
 import AboutSection from "@/components/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import CertificateSection from "@/components/CertificateSection";
 import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
@@ -56,6 +57,9 @@ export default function Home() {
 
         {/* Testimonials Section */}
         <TestimonialsSection />
+
+        {/* Accredited Freelance Certificate Section */}
+        <CertificateSection />
 
         {/* Contact / Footer Section */}
         <FooterSection />

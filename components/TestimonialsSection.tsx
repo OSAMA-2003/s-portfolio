@@ -92,14 +92,7 @@ export default function TestimonialsSection() {
 
               {/* Author Footer */}
               <div className="flex items-center justify-between border-t border-white/10 pt-4 mt-auto">
-                <div className="flex flex-col text-right">
-                  <span className="font-bold text-white text-base">
-                    {item.name}
-                  </span>
-                  <span className="text-white/50 text-xs mt-0.5">
-                    {item.role}
-                  </span>
-                </div>
+
                 <div className="w-2.5 h-2.5 rounded-full bg-[#00dce5] shadow-[0_0_10px_#00dce5]" />
               </div>
             </div>
