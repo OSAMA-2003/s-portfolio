@@ -100,6 +100,22 @@ export default function FooterSection() {
             </a> */}
           </div>
         </div>
+
+        {/* Developer Credit */}
+        <div className="w-full max-w-[1400px] flex justify-center items-center pt-8 mt-8 border-t border-white/10 text-center">
+          <a
+            href="https://osama-ahmd-portfolio.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-[#00dce5] transition-all duration-300 text-xs sm:text-sm font-medium tracking-wide inline-flex items-center gap-1.5 group"
+            dir="rtl"
+          >
+            <span>تطوير وتصميم المواقع بواسطة</span>
+            <span className="text-white font-semibold group-hover:text-[#00dce5] underline underline-offset-4 decoration-[#00dce5]/40 group-hover:decoration-[#00dce5] transition-colors">
+              OSAMA — للخدمات البرمجية
+            </span>
+          </a>
+        </div>
       </div>
     </footer>
   );
